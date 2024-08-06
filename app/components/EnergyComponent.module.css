@@ -1,0 +1,1818 @@
+#fullOverlay {
+    position: fixed;
+    height: 100%;
+    width: 390px;
+    background-color: #00000000;
+    top: 46px;
+    z-index: 5;
+    display: none;
+    transition: all 2s ease;
+}
+
+#fullOverlay #sandwichNav {
+    background-color: #f7f7f7;
+    margin: 20px auto;
+    height: 75px;
+    width: 363px;
+}
+
+nav.header {
+    background-color: #f7f7f70F;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    height: 109px;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    overflow-y: visible;
+}
+
+.sign {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 42.5px 99px;
+}
+
+.sign:hover {
+    cursor: pointer;
+}
+
+.logoName {
+    margin: auto 0;
+    font-family: 'Lato';
+    color: #007334;
+}
+
+h5.logoName {
+    font-size: 24px;
+}
+
+#sandwich {
+    display: none;
+}
+
+
+.ourbiz {
+    position: relative;
+}
+
+.ourbiz:hover #dropdown {
+    display: flex;
+}
+
+.ourbiz #dropdown .dropdownItem .item {
+    margin: 0 auto;
+    padding-top: 20px;
+    height: 64px;
+    width: 80%;
+    line-height: 110%;
+    font-size: 20px;
+    border-image: linear-gradient(to right, #DE6741, #1EB641) 30;
+    border-width: 2px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.ourbiz #dropdown .dropdownItem:hover {
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+
+.bgImg {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#map {
+    top: 116px;
+    height: 576px;
+}
+
+
+#EnergyCard {
+    width: 1245px;
+    height: 759px;
+    position: relative;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 209px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cardOverlay {
+    width: 1245px;
+    height: 759px;
+    background-color: #00271266;
+}
+
+.cardOverlay h3 {
+    position: absolute;
+    width: 1166px;
+    top: 269px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-family: "Lato";
+    text-align: center;
+    font-size: 80px;
+    font-weight: lighter;
+    letter-spacing: 0.3em;
+}
+
+.cardOverlay p {
+    position: absolute;
+    width: 1049px;
+    top: 371px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-family: "Lato";
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+}
+
+#OurServices {
+    width: 1245px;
+    height: 474px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 0;
+}
+
+#OurServices h3 {
+    height: 34px;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 48px;
+    letter-spacing: .05em;
+    line-height: 30px;
+}
+
+#ServiceCards {
+    width: 1245px;
+    max-width: 1245px;
+    height: 390px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    align-items: center;
+    overflow: scroll;
+}
+
+#ServiceCards::-webkit-scrollbar {
+    display: none;
+}
+
+.servicecard {
+    width: 405px;
+    min-width: 405px;
+    height: 358px;
+    border-radius: 10px;
+    border: 1px solid #d7d7d7;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.servicecard img {
+    width: 100%;
+    height: 252px;
+    margin: 0;
+}
+
+.serviceCardOverlay {
+    position: absolute;
+    height: 252px;
+    width: 100%;
+    background-color: #00271266;
+    top: 0;
+    left: 0;
+}
+
+.servicecard .label {
+    margin: 0;
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.servicecard .label h4 {
+    width: fit-content;
+    margin: 0 auto;
+    height: 17px;
+    font-size: 24px;
+    line-height: 15px;
+}
+
+.servicecard:hover .label button {
+    display: block;
+}
+
+.servicecard:hover .serviceCardOverlay {
+    display: none;
+}
+
+.servicecard .label button {
+    position: absolute;
+    width: 405px;
+    height: 64px;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #da271f;
+    display: none;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+#wave {
+    top: 1892px;
+    height: 820px;
+    background-size: cover;
+}
+
+
+
+#wave2 {
+    top: 2570px;
+    height: 800px;
+    background-size: cover;
+}
+
+.businesscards {
+    width: 1244px;
+    height: 371px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0;
+}
+
+.businesscards section {
+    height: 371px;
+    margin: 0 auto;
+    width: 1244px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 64px;
+}
+
+.card {
+    position: relative;
+    height: 371px;
+    width: 590px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgb(0, 0, 0, 0.1);
+}
+
+.businessCardOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.businessCardOverlay:hover {
+    opacity: 1;
+}
+
+.cardHeading {
+    width: 521px;
+    height: 46px;
+    border-image: linear-gradient(to right, #DE6741, #1EB641) 30;
+    border-width: 2px;
+    border-style: solid;
+    border-top: none;
+    margin: 0 auto;
+    margin-top: 41px;
+}
+
+.cardHeading h3 {
+    font-size: 20px;
+    letter-spacing: 0.32em;
+}
+
+.businessCardOverlay ul {
+    margin: 0 auto;
+    margin-top: 32px;
+    width: 521px;
+}
+
+.businessCardOverlay ul li {
+    list-style: none;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    line-height: 32px;
+}
+
+
+
+#card1 {
+    background-color: #C6DDFF80;
+}
+
+#card2 {
+    background-color: #E4FFC280;
+}
+
+
+
+.cardtext {
+    width: 273px;
+    font-size: 24px;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 0.32em;
+    line-height: 60px;
+}
+
+#focus {
+    width: 1245px;
+    height: 548px;
+    margin: 0 auto;
+}
+
+
+
+#focus h4 {
+    width: 1089px;
+    height: 61px;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: .05em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.detailCards {
+    width: 1245px;
+    height: 437px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    align-items: flex-end;
+}
+
+.detailCards .detailcard {
+    height: 423px;
+    width: 405px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px 0 rgb(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#focus .detailCards .detailcard,
+#platform .detailcard {
+    border: 1px solid;
+    border-image: linear-gradient(to left, red, green) 30;
+}
+
+.detailCards .detailcard .cardgradient {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 172.6px;
+    background-image: url('../Resources/desktopcardgradient.png');
+}
+
+.detailCards .detailcard .topic {
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    height: 34px;
+    border-radius: 10px;
+    color: #DA271F;
+    background-color: #f7f7f7;
+    font-size: 20px;
+    text-align: center;
+}
+
+#topic2 {
+    width: 303px;
+}
+
+#topic3 {
+    width: 233px;
+}
+
+.detailCards .detailcard ul {
+    width: 355px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.detailCards .detailcard ul li {
+    list-style: outside;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: .05em;
+    margin-left: 1em;
+}
+
+.detailcard article {
+    width: 355px;
+    margin: 0 auto;
+}
+
+#platform {
+    width: 1245px;
+    height: 548px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+#platform h4 {
+    height: 61px;
+    width: 672px;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: .05em;
+    text-align: center;
+    margin: 0 auto;
+    color: #019946;
+}
+
+#platform .detailCards .detailcard {
+    padding: 0;
+    padding-top: 45px;
+}
+
+.detailcard article .icon {
+    height: 48px;
+    width: 48px;
+    margin: 0;
+}
+
+.detailcard article h5 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    color: #019946;
+    margin-top: 32px;
+    letter-spacing: .05em;
+}
+
+.detailcard #text2 h5 {
+    line-height: 25px;
+}
+
+.detailcard article p {
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 32px;
+    letter-spacing: .05em;
+}
+
+.detailcard #text2 p {
+    line-height: 25px;
+}
+
+#whypatner {
+    width: 1245px;
+    height: 674px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+#whypatner h3 {
+    height: 17px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 15px;
+    width: fit-content;
+}
+
+#whypatner img {
+    width: 1245px;
+    height: 607px;
+    margin-top: 50px;
+}
+
+#imgmobile {
+    display: none;
+}
+
+#process {
+    width: 1292px;
+    height: 383px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding-top: 0;
+}
+
+#process h4 {
+    width: 1089px;
+    height: 61px;
+    font-size: 24px;
+    line-height: 44px;
+    letter-spacing: .05em;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+#process .detailCards {
+    width: 1292px;
+    height: 272px;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#process .detailCards .detailcard {
+    width: 195px;
+    height: 207px;
+    background-color: #D6E6FC;
+    position: relative;
+}
+
+#process .detailCards .detailcard .number {
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #d7d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#process .detailCards .detailcard p {
+    width: 148px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: .05em;
+}
+
+
+.contactUs {
+    width: 978px;
+    height: 869px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+#footnav1 li a {
+    color: #f7f7f7;
+    line-height: 0;
+}
+
+#footnav2 {
+    padding-top: 106px;
+}
+
+
+#footnav2 ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-left: 0;
+    column-gap: 133px;
+}
+
+#footnav2 ul li a {
+    color: #f7f7f7;
+}
+
+#footnav2 #emailaddress {
+    float: right;
+    font-size: 20px;
+    color: #f7f7f7;
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+#emailaddress li {
+    width: fit-content;
+}
+
+#footnav3 {
+    height: 120px;
+    align-items: flex-end;
+}
+
+#footnav3 ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 234px;
+    margin: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+#footnav3 ul li {
+    text-align: left;
+    width: fit-content;
+    font-size: 14px;
+    height: 15px;
+}
+
+@media (max-width: 1275px) {
+    #fullOverlay {
+        position: fixed;
+        height: 100%;
+        width: 834px;
+        background-color: #0000007f;
+        top: 94px;
+        z-index: 5;
+        display: none;
+        transition: all 2s ease;
+    }
+
+    #fullOverlay #sandwichNav {
+        background-color: #f7f7f7;
+        margin: 50px auto;
+        height: 75px;
+        width: 667px;
+        border-radius: 10px;
+    }
+
+    #fullOverlay #sandwichNav ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #fullOverlay #sandwichNav ul li {
+        width: 33.3%;
+    }
+
+    #fullOverlay #sandwichNav ul li a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #fullOverlay #sandwichNav ul li a:hover {
+        background-color: lightgray;
+    }
+
+    #fullOverlay #sandwichNav ul li a p {
+        font-size: 20px;
+        text-align: center;
+        border: 0.5px solid black;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    nav.header {
+        background-color: #f7f7f70F;
+        backdrop-filter: blur(5px);
+        height: 94px;
+        width: 834px;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        z-index: 3;
+        overflow-y: visible;
+    }
+
+    .sign {
+        display: inline-flex;
+        flex-direction: row;
+        gap: 8px;
+        padding: 23px 0px 0px 62px;
+    }
+
+    .logoName {
+        margin: auto 0;
+        font-family: 'Lato';
+        color: #007334;
+    }
+
+    h5.logoName {
+        font-size: 24px;
+    }
+
+    #navlinks {
+        display: none;
+    }
+
+    #sandwich {
+        height: 48px;
+        width: 48px;
+        display: block;
+        float: right;
+        margin-right: 62px;
+        margin-top: 23px;
+        background-size: cover;
+        border: none;
+        background-color: transparent;
+    }
+
+    #sandwich:active #fullOverlay {
+        display: block;
+    }
+
+    .bgImg {
+        position: absolute;
+        width: 834px;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    #map {
+        top: 94px;
+        height: 333.6px;
+    }
+
+    #EnergyCard {
+        width: 700px;
+        height: 451px;
+        position: relative;
+        background-size: cover;
+        margin: 0 auto;
+        margin-top: 144px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+
+    .cardOverlay {
+        width: 700px;
+        height: 451px;
+        background-color: #00271266;
+    }
+
+    .cardOverlay h3 {
+        position: absolute;
+        width: 494px;
+        top: 127px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #ffffff;
+        font-family: "Lato";
+        text-align: center;
+        font-size: 32px;
+        font-weight: lighter;
+        letter-spacing: .35em;
+    }
+
+    .cardOverlay p {
+        position: absolute;
+        width: 532px;
+        top: 197px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #ffffff;
+        font-family: "Lato";
+        text-align: center;
+        font-size: 14px;
+        line-height: 32px;
+        letter-spacing: 0.01em;
+    }
+
+    #wave {
+        top: 312px;
+        height: 222px;
+        background-size: cover;
+        width: 390px;
+        display: none;
+    }
+
+    #OurServices {
+        width: 783px;
+        height: 334px;
+        margin: 0 auto;
+        margin-top: 100px;
+        padding: 0;
+    }
+
+    #OurServices h3 {
+        height: 17px;
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 24px;
+        letter-spacing: .05em;
+        line-height: 10px;
+    }
+
+    #ServiceCards {
+        width: 783px;
+        max-width: 783px;
+        height: 267px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 16px;
+        align-items: center;
+        overflow: scroll;
+    }
+
+    #ServiceCards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .servicecard {
+        width: 280px;
+        min-width: 280px;
+        height: 247px;
+        border-radius: 6.91px;
+        border: 1px solid #d7d7d7;
+        overflow: hidden;
+        position: relative;
+    }
+
+
+    .servicecard img {
+        width: 100%;
+        height: 174px;
+        margin: 0;
+    }
+
+    .serviceCardOverlay {
+        position: absolute;
+        height: 174px;
+        width: 100%;
+        background-color: #00271266;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+
+    .servicecard .label {
+        margin: 0;
+        height: 72px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .servicecard .label h4 {
+        position: absolute;
+        width: 139px;
+        height: 12px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 8px;
+        color: #ffffff;
+        z-index: 5;
+        top: -64px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .servicecard .label button {
+        position: absolute;
+        width: 280px;
+        height: 44.21px;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 2px solid white;
+        border-radius: 4px;
+        background-color: #da271f;
+        display: block;
+        font-family: 'Poppins';
+        font-size: 14px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+
+
+    #wave2 {
+        display: none;
+    }
+
+    .businesscards {
+        width: 702px;
+        height: 234px;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0;
+    }
+
+    .businesscards section {
+        height: fit-content;
+        margin: 0 auto;
+        width: 702px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 22px;
+    }
+
+    .card {
+        position: relative;
+        height: 234px;
+        width: 340px;
+        padding: auto;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px 0 rgb(0, 0, 0, 0.1);
+    }
+
+    .businessCardOverlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+
+    .cardHeading {
+        width: 284px;
+        height: 46px;
+        border-image: linear-gradient(to right, #DE6741, #1EB641) 30;
+        border-width: 0.5px;
+        border-style: solid;
+        border-top: none;
+        margin: 0 auto;
+        margin-top: 41px;
+    }
+
+    .cardHeading h3 {
+        font-size: 20px;
+        letter-spacing: 0.32em;
+    }
+
+    .businessCardOverlay ul {
+        margin: 0 auto;
+        margin-top: 32px;
+        width: 286px;
+    }
+
+    .businessCardOverlay ul li {
+        list-style: none;
+        font-size: 16px;
+        letter-spacing: 0.01em;
+        line-height: 24px;
+    }
+
+    #focus {
+        width: 700px;
+        height: 417px;
+        margin: 0 auto;
+    }
+
+
+
+    #focus h4 {
+        width: 700px;
+        height: 105px;
+        font-size: 24px;
+        line-height: 44px;
+        letter-spacing: .05em;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .detailCards {
+        width: 700px;
+        height: 262px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 8px;
+        align-items: flex-end;
+    }
+
+    .detailCards .detailcard {
+        height: 254px;
+        width: 228px;
+        border-radius: 5.62px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 10px 0 rgb(0, 0, 0, 0.1);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detailCards .detailcard .topic {
+        position: absolute;
+        top: -9.6px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: fit-content;
+        height: 19.24px;
+        border-radius: 5.62px;
+        color: #DA271F;
+        background-color: #f7f7f7;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #topic2 {
+        width: 181px;
+    }
+
+    #topic3 {
+        width: 139px;
+    }
+
+    .detailCards .detailcard ul {
+        width: 195px;
+        margin: 0 auto;
+        margin-top: 34.86px;
+    }
+
+    .detailCards .detailcard ul li {
+        list-style: outside;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: .05em;
+        margin-left: 1.5em;
+    }
+
+    .detailcard article {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    #platform {
+        width: 702px;
+        height: 348.83px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+
+    #platform h4 {
+        width: 702px;
+        height: 61px;
+        font-size: 24px;
+        line-height: 44px;
+        letter-spacing: .05em;
+        text-align: center;
+        margin: 0 auto;
+        color: #019946;
+    }
+
+    #platform .detailCards .detailcard {
+        padding: 0;
+        padding-top: 20px;
+        width: 228px;
+        height: 300px;
+    }
+
+    .detailcard article h5 {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 18px;
+        color: #019946;
+        margin-top: 24px;
+    }
+
+    .detailcard #text2 h5 {
+        line-height: 15px;
+    }
+
+    .detailcard article p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 24px;
+    }
+
+    .detailcard #text2 p {
+        line-height: 15px;
+    }
+
+    #whypatner {
+        width: 700px;
+        height: 431px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    #whypatner h3 {
+        height: 17px;
+        margin: 0 auto;
+        font-size: 24px;
+        line-height: 10px;
+        width: fit-content;
+    }
+
+    #whypatner img {
+        width: 700px;
+        height: 364px;
+        margin-top: 50px;
+    }
+
+    #imgmobile {
+        display: none;
+    }
+
+    #imgdesktop {
+        display: block;
+    }
+
+    #process {
+        width: 700px;
+        height: 427px;
+        margin: 0 auto;
+        margin-top: 100px;
+        padding-top: 0;
+    }
+
+    #process h4 {
+        width: 700px;
+        height: 105px;
+        font-size: 24px;
+        line-height: 44px;
+        letter-spacing: .05em;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 5px;
+    }
+
+    #process .detailCards {
+        width: 700px;
+        height: 272px;
+        margin: 0 auto;
+        margin-top: 50px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: scroll;
+        padding: 0 25px;
+    }
+
+
+    #footnav1 li a {
+        color: #f7f7f7;
+        line-height: 0;
+    }
+
+    #footnav2 {
+        padding-top: 50px;
+    }
+
+    #footnav2 ul {
+        display: flex;
+        flex-direction: row;
+        column-gap: 37.67px;
+        margin: 0 auto;
+        margin-left: 0;
+    }
+
+    #footnav2 ul li a {
+        color: #f7f7f7;
+    }
+
+    #footnav2 #emailaddress {
+        float: right;
+        font-size: 14px;
+        color: #f7f7f7;
+        margin: 0 auto;
+        margin-right: 0;
+    }
+
+    #emailaddress li {
+        width: fit-content;
+    }
+
+    #footnav3 {
+        height: 75px;
+    }
+
+    #footnav3 ul {
+        margin: 0;
+        margin-right: 0;
+        display: flex;
+        flex-direction: row;
+        column-gap: 75px;
+
+    }
+
+    #footnav3 ul li {
+        text-align: center;
+        width: fit-content;
+        font-size: 12px;
+        height: 15px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    #fullOverlay {
+        position: fixed;
+        height: 100%;
+        width: 390px;
+        background-color: #0000007f;
+        top: 46px;
+        z-index: 5;
+        display: none;
+        transition: all 2s ease;
+    }
+
+    #fullOverlay #sandwichNav {
+        background-color: #f7f7f7;
+        margin: 20px auto;
+        height: 75px;
+        width: 363px;
+        border-radius: 10px;
+    }
+
+    #fullOverlay #sandwichNav ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #fullOverlay #sandwichNav ul li {
+        width: 33.3%;
+    }
+
+    #fullOverlay #sandwichNav ul li a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #fullOverlay #sandwichNav ul li a:hover {
+        background-color: lightgray;
+    }
+
+    #fullOverlay #sandwichNav ul li a p {
+        font-size: 20px;
+        text-align: center;
+        border: 0.5px solid black;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    nav.header {
+        background-color: #f7f7f70F;
+        backdrop-filter: blur(5px);
+        height: 46px;
+        width: 390px;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        z-index: 3;
+        overflow-y: visible;
+    }
+
+    .sign {
+        display: inline-flex;
+        flex-direction: row;
+        gap: 8px;
+        padding: 11px 0px 0px 26px;
+    }
+
+    .logoName {
+        margin: auto 0;
+        font-family: 'Lato';
+        color: #007334;
+    }
+
+    h5.logoName {
+        font-size: 16px;
+    }
+
+    #navlinks {
+        display: none;
+    }
+
+    #sandwich {
+        height: 24px;
+        width: 24px;
+        display: block;
+        float: right;
+        margin-right: 26px;
+        margin-top: 11px;
+        background-size: cover;
+        border: none;
+        background-color: transparent;
+    }
+
+    #sandwich:active #fullOverlay {
+        display: block;
+    }
+
+    .bgImg {
+        position: absolute;
+        width: 390px;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    #map {
+        top: 46px;
+        height: 156px;
+    }
+
+    #EnergyCard {
+        width: 328px;
+        height: 200px;
+        position: relative;
+        background-size: cover;
+        margin: 0 auto;
+        margin-top: 71px;
+        border-radius: 2.64px;
+        overflow: hidden;
+    }
+
+
+    .cardOverlay {
+        width: 340px;
+        height: 207px;
+        background-color: #00271266;
+    }
+
+    .cardOverlay h3 {
+        position: absolute;
+        width: 282px;
+        top: 46px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #ffffff;
+        font-family: "Lato";
+        text-align: center;
+        font-size: 20px;
+        font-weight: lighter;
+        letter-spacing: .27em;
+    }
+
+    .cardOverlay p {
+        position: absolute;
+        width: 276.6px;
+        top: 75px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #ffffff;
+        font-family: "Lato";
+        text-align: center;
+        font-size: 8px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+    }
+
+    #wave {
+        top: 312px;
+        height: 222px;
+        background-size: cover;
+        width: 390px;
+        display: block;
+    }
+
+    #OurServices {
+        width: 348px;
+        height: 198px;
+        margin: 0 auto;
+        margin-top: 64px;
+        padding: 0;
+    }
+
+    #OurServices h3 {
+        height: 12px;
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 16px;
+        letter-spacing: .05em;
+        line-height: 10px;
+    }
+
+    #ServiceCards {
+        width: 348px;
+        max-width: 348px;
+        height: 154px;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 9.23px;
+        align-items: center;
+        overflow: scroll;
+    }
+
+    #ServiceCards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .servicecard {
+        width: 161.4px;
+        min-width: 161.4px;
+        height: 142.66px;
+        border-radius: 4px;
+        border: 1px solid #d7d7d7;
+        overflow: hidden;
+        position: relative;
+    }
+
+
+    .servicecard img {
+        width: 100%;
+        height: 100px;
+        margin: 0;
+    }
+
+    .serviceCardOverlay {
+        position: absolute;
+        height: 100px;
+        width: 100%;
+        background-color: #00271266;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+
+    .servicecard .label {
+        margin: 0;
+        height: 25.5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .servicecard .label h4 {
+        position: absolute;
+        width: 105px;
+        height: 9px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 8px;
+        color: #ffffff;
+        z-index: 5;
+        top: -36px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .servicecard .label button {
+        position: absolute;
+        width: 161.4px;
+        height: 25.5px;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 1px solid white;
+        border-radius: 4px;
+        background-color: #da271f;
+        display: block;
+        font-family: 'Poppins';
+        font-size: 10px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+
+
+    #wave2 {
+        display: none;
+    }
+
+    .businesscards {
+        width: 340px;
+        height: 490px;
+        margin: 64px auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0;
+    }
+
+    .businesscards section {
+        height: fit-content;
+        margin: 0 auto;
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 22px;
+    }
+
+    .card {
+        position: relative;
+        height: 234px;
+        width: 100%;
+        padding: auto;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px 0 rgb(0, 0, 0, 0.1);
+    }
+
+    .businessCardOverlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+
+    .cardHeading {
+        width: 302px;
+        height: 44px;
+        border-image: linear-gradient(to right, #DE6741, #1EB641) 30;
+        border-width: 0.5px;
+        border-style: solid;
+        border-top: none;
+        margin: 0 auto;
+        margin-top: 41px;
+    }
+
+    .cardHeading h3 {
+        font-size: 16px;
+        letter-spacing: 0.32em;
+    }
+
+    .businessCardOverlay ul {
+        margin: 0 auto;
+        margin-top: 34px;
+        width: 286px;
+    }
+
+    .businessCardOverlay ul li {
+        list-style: none;
+        font-size: 14px;
+        letter-spacing: 0.01em;
+        line-height: 24px;
+    }
+
+    #focus {
+        width: 340px;
+        height: 910px;
+        margin: 0 auto;
+    }
+
+
+
+    #focus h4 {
+        width: 340px;
+        height: 108px;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: .05em;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .detailCards {
+        width: 340px;
+        height: 770px;
+        margin-top: 62px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        justify-content: flex-end;
+    }
+
+    .detailCards .detailcard {
+        height: 240px;
+        width: 340px;
+        border-radius: 5.62px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 10px 0 rgb(0, 0, 0, 0.1);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detailCards .detailcard .topic {
+        position: absolute;
+        top: -11.2px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: fit-content;
+        height: 22.35px;
+        border-radius: 5.62px;
+        color: #DA271F;
+        background-color: #f7f7f7;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #topic2 {
+        width: 270px;
+    }
+
+    #topic3 {
+        width: 206px;
+    }
+
+    .detailCards .detailcard ul {
+        width: 279px;
+        margin: 0 auto;
+        margin-top: 21.23px;
+    }
+
+    .detailCards .detailcard ul li {
+        list-style: outside;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: .05em;
+    }
+
+    .detailcard article {
+        width: 298px;
+        margin: 0 auto;
+    }
+
+    #platform {
+        width: 340px;
+        height: 822px;
+        margin: 0 auto;
+        margin-top: 64px;
+    }
+
+
+    #platform h4 {
+        width: 340px;
+        height: 60px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: .05em;
+        text-align: center;
+        margin: 0 auto;
+        color: #019946;
+    }
+
+    #platform .detailCards {
+        margin-top: 25px;
+    }
+
+    #platform .detailCards .detailcard {
+        padding: 0;
+        padding-top: 22px;
+        width: 340px;
+        height: 238px;
+    }
+
+    .detailcard article h5 {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 18px;
+        margin: 0;
+        color: #019946;
+        margin-top: 24px;
+    }
+
+    .detailcard #text2 h5 {
+        font-size: 13px;
+    }
+
+    .detailcard article p {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 24px;
+    }
+
+    .detailcard #text2 p {
+        font-size: 11px;
+    }
+
+    #whypatner {
+        width: 340px;
+        height: 340.5px;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+
+    #whypatner h3 {
+        height: 12px;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 10px;
+        width: fit-content;
+    }
+
+    #whypatner img {
+        width: 340px;
+        height: 303.4px;
+        margin-top: 25px;
+    }
+
+    #imgmobile {
+        display: block;
+    }
+
+    #imgdesktop {
+        display: none;
+    }
+
+    #process {
+        width: 340px;
+        height: 412px;
+        margin: 0 auto;
+        margin-top: 64px;
+        padding-top: 0;
+    }
+
+    #process h4 {
+        width: 340px;
+        height: 108px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: .05em;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 5px;
+    }
+
+    #process .detailCards {
+        width: 340px;
+        height: 272px;
+        margin: 0 auto;
+        margin-top: 32px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: scroll;
+        padding: 0 25px;
+    }
+
+    #footnav1 li a {
+        color: #f7f7f7;
+        line-height: 0;
+    }
+
+    #footnav2 {
+        padding: 0;
+    }
+
+    #footnav2 ul {
+        display: flex;
+        flex-direction: row;
+        float: none;
+        column-gap: 37.67px;
+        margin: 0 auto;
+    }
+
+    #footnav2 ul li a {
+        color: #f7f7f7;
+    }
+
+    #footnav2 #emailaddress {
+        float: none;
+        font-size: 20px;
+        color: #f7f7f7;
+        margin: 0 auto;
+    }
+
+    #emailaddress li {
+        width: fit-content;
+    }
+
+    #footnav3 ul {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        float: none;
+    }
+
+    #footnav3 ul li {
+        text-align: center;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+}

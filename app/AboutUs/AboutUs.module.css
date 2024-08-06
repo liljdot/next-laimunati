@@ -1,0 +1,73 @@
+.orgStructure {
+    width: 1245px;
+    height: 187px;
+    margin: 0 auto;
+    margin-top: 286px;
+    background-image: url('../Resources/Component\ 3.png');
+    background-size: contain;
+}
+
+.bgImg {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#wave {
+    top: 1480px;
+    height: 800px;
+    background-size: cover;
+    display: none;
+}
+
+@media (max-width: 1275px) {
+    .orgStructure {
+        width: 700px;
+        height: 93px;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-image: url('../Resources/Component\ 3.png');
+        background-size: contain;
+    }
+
+    .bgImg {
+        position: absolute;
+        width: 834px;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    #wave {
+        top: 462px;
+        height: 222px;
+        background-size: cover;
+        width: 390px;
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .orgStructure {
+        width: 390px;
+        height: 51px;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-image: url('../Resources/Component\ 3.png');
+        background-size: contain;
+    }
+
+    .bgImg {
+        position: absolute;
+        width: 390px;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    #wave {
+        top: 462px;
+        height: 222px;
+        background-size: cover;
+        width: 390px;
+    }
+}

@@ -1,0 +1,194 @@
+        #fullOverlay {
+            position: fixed;
+            height: 100%;
+            width: 390px;
+            background-color: #00000000;
+            top: 46px;
+            z-index: 5;
+            display: none;
+            transition: all 2s ease;
+        }
+
+        #fullOverlay #sandwichNav {
+            background-color: #f7f7f7;
+            margin: 20px auto;
+            height: 75px;
+            width: 363px;
+        }
+
+        .nav.header {
+            background-color: #f7f7f70F;
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            height: 109px;
+            width: 100%;
+            margin: 0;
+            position: fixed;
+            top: 0;
+            z-index: 3;
+            overflow-y: visible;
+        }
+
+        .figure {
+            background-size: contain;
+        }
+
+        .figure.logo {
+            height: 24px;
+            width: 26.62px;
+        }
+
+        .sign {
+            display: inline-flex;
+            flex-direction: row;
+            gap: 8px;
+            padding: 42.5px 99px;
+        }
+
+        .sign:hover {
+            cursor: pointer;
+        }
+
+        .logoName {
+            margin: auto 0;
+            font-family: 'Lato';
+            color: #007334;
+        }
+
+        .h5.logoName {
+            font-size: 24px;
+        }
+
+        #sandwich {
+            display: none;
+        }
+
+
+
+        .nav .ul {
+            float: right;
+            margin-right: 99px;
+        }
+
+        .nav .ul .navlinkitem {
+            display: inline;
+            line-height: 109px;
+            margin-left: 53px;
+        }
+
+        .nav .ul .navlink .li {
+            font-size: 20px;
+            font-weight: bold;
+            height: 25px;
+        }
+
+        .nav .ul .navlink .li:hover {
+            color: #019946;
+        }
+
+        .nav .ul .li .navlink {
+            font-size: 20px;
+            font-weight: bold;
+            height: 25px;
+        }
+
+        .nav .ul .li .navlink:hover{
+            color: #019946;
+        }
+
+        .nav .ul .li .a .img {
+            margin-left: 8px;
+            transform: translateY(4px);
+        }
+
+        .ourbiz {
+            position: relative;
+        }
+
+        .div#dropdown {
+            height: 200px;
+            width: 100%;
+            height: 256px;
+            border-radius: 10px;
+            background-color: red;
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            padding: 0;
+            z-index: 6;
+        }
+
+        .div#dropdown .ul {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            background-color: #f7f7f7;
+            height: 100%;
+            width: 100%;
+            padding-top: 0;
+            border-radius: 10px;
+        }
+
+        .ourbiz:hover #dropdown {
+            display: flex;
+        }
+
+        .ourbiz #dropdown .dropdownItem .item {
+            margin: 0 auto;
+            padding-top: 20px;
+            height: 64px;
+            width: 80%;
+            line-height: 110%;
+            font-size: 20px;
+            border-image: linear-gradient(to right, #DE6741, #1EB641) 30;
+            border-width: 2px;
+            border-style: solid;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+        }
+
+        .ourbiz #dropdown .dropdownItem:hover {
+            background-color: lightgrey;
+            border-radius: 10px;
+        }
+
+
+        .bgImg {
+            position: absolute;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.2;
+        }
+
+        #map {
+            top: 116px;
+            height: 576px;
+        }
+
+        .h2 {
+            line-height: 100px;
+            text-align: center;
+            width: 350px;
+            height: 104px;
+            margin: 0 auto;
+            margin-top: 93px;
+            font-size: 32px;
+        }
+
+        .welcomeMessage {
+            margin: 0 auto;
+            background: linear-gradient(to right, #de6741, #1eb641);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+
+        .welcomeMessage h1 {
+            font-size: 128px;
+            width: 1177px;
+            text-align: center;
+            margin: 0 auto;
+            font-weight: lighter;
+        }

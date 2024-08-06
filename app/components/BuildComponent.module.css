@@ -1,0 +1,871 @@
+#EnergyCard {
+    width: 1245px;
+    height: 759px;
+    position: relative;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 209px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cardOverlay {
+    width: 1245px;
+    height: 759px;
+    background-color: #00271266;
+}
+
+.cardOverlay h3 {
+    position: absolute;
+    width: 1166px;
+    top: 269px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-family: "Lato";
+    text-align: center;
+    font-size: 80px;
+    font-weight: lighter;
+    letter-spacing: 0.3em;
+}
+
+.cardOverlay p {
+    position: absolute;
+    width: 1049px;
+    top: 371px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-family: "Lato";
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+}
+
+#OurServices {
+    width: 1245px;
+    height: 474px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 0;
+}
+
+#OurServices h3 {
+    height: 34px;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 48px;
+    letter-spacing: .05em;
+    line-height: 30px;
+}
+
+#ServiceCards {
+    width: 1245px;
+    max-width: 1245px;
+    height: 390px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    align-items: center;
+    overflow: scroll;
+}
+
+#ServiceCards::-webkit-scrollbar {
+    display: none;
+}
+
+.servicecard {
+    width: 405px;
+    min-width: 405px;
+    height: 358px;
+    border-radius: 10px;
+    border: 1px solid #d7d7d7;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.servicecard img {
+    width: 100%;
+    height: 252px;
+    margin: 0;
+}
+
+.servicecard .label {
+    margin: 0;
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.servicecard .label h4 {
+    width: fit-content;
+    margin: 0 auto;
+    height: 17px;
+    font-size: 24px;
+    line-height: 15px;
+}
+
+.servicecard:hover .label button {
+    display: block;
+}
+
+.servicecard:hover .serviceCardOverlay {
+    display: none;
+}
+
+.servicecard .label button {
+    position: absolute;
+    width: 405px;
+    height: 64px;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #da271f;
+    display: none;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.serviceCardOverlay {
+    position: absolute;
+    height: 252px;
+    width: 100%;
+    background-color: #00271266;
+    top: 0;
+    left: 0;
+}
+
+.servicecard:hover .serviceCardOverlay {
+    display: none;
+}
+
+.businesscards {
+    width: 1244px;
+    height: 371px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0;
+}
+
+.businesscards section {
+    height: 371px;
+    margin: 0 auto;
+    width: 1244px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 64px;
+}
+
+.card {
+    position: relative;
+    height: 371px;
+    width: 590px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgb(0, 0, 0, 0.1);
+}
+
+.bgImg {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#wave {
+    top: 1892px;
+    height: 820px;
+    background-size: cover;
+}
+
+#focus {
+    width: 1245px;
+    height: 548px;
+    margin: 0 auto;
+}
+
+#focus h4 {
+    width: 1089px;
+    height: 61px;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: .05em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.detailCards {
+    width: 1245px;
+    height: 437px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    align-items: flex-end;
+}
+
+.detailCards .detailcard {
+    height: 423px;
+    width: 405px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgb(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-image: linear-gradient(to left, red, green) 30;
+
+}
+
+.detailCards .detailcard .cardgradient {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 172.6px;
+    background-image: url('../Resources/desktopcardgradient.png');
+}
+
+.detailCards .detailcard .topic {
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    height: 34px;
+    border-radius: 10px;
+    color: #DA271F;
+    background-color: #f7f7f7;
+    font-size: 20px;
+    text-align: center;
+}
+
+.detailCards .detailcard ul {
+    width: 355px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.detailCards .detailcard ul li {
+    list-style: outside;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: .05em;
+    margin-left: 1em;
+}
+
+.detailcard article {
+    width: 355px;
+    margin: 0 auto;
+}
+
+.detailcard article h5 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    color: #019946;
+}
+
+.detailcard article p {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#topic1 {
+    width: 257px;
+}
+
+#topic2 {
+    width: 267px;
+}
+
+#topic3 {
+    width: 264px;
+}
+
+@media (max-width: 1275px) {
+    #EnergyCard {
+        width: 700px;
+        height: 451px;
+        position: relative;
+        background-size: cover;
+        margin: 0 auto;
+        margin-top: 144px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .cardOverlay {
+        width: 700px;
+        height: 451px;
+        background-color: #00271266;
+    }
+
+    .cardOverlay h3 {
+        position: absolute;
+        width: 494px;
+        top: 127px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #ffffff;
+        font-family: "Lato";
+        text-align: center;
+        font-size: 32px;
+        font-weight: lighter;
+        letter-spacing: .35em;
+    }
+
+    .cardOverlay p {
+        position: absolute;
+        width: 532px;
+        top: 197px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #ffffff;
+        font-family: "Lato";
+        text-align: center;
+        font-size: 14px;
+        line-height: 32px;
+        letter-spacing: 0.01em;
+    }
+
+    #OurServices {
+        width: 783px;
+        height: 334px;
+        margin: 0 auto;
+        margin-top: 100px;
+        padding: 0;
+    }
+
+    #OurServices h3 {
+        height: 17px;
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 24px;
+        letter-spacing: .05em;
+        line-height: 10px;
+    }
+
+    #ServiceCards {
+        width: 783px;
+        max-width: 783px;
+        height: 267px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 16px;
+        align-items: center;
+        overflow: scroll;
+    }
+
+    #ServiceCards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .servicecard {
+        width: 280px;
+        min-width: 280px;
+        height: 247px;
+        border-radius: 6.91px;
+        border: 1px solid #d7d7d7;
+        overflow: hidden;
+        position: relative;
+    }
+
+
+    .servicecard img {
+        width: 100%;
+        height: 174px;
+        margin: 0;
+    }
+
+    .servicecard .label {
+        margin: 0;
+        height: 72px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .servicecard .label h4 {
+        position: absolute;
+        width: 215px;
+        height: 12px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 8px;
+        color: #ffffff;
+        z-index: 5;
+        top: -64px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .servicecard .label button {
+        position: absolute;
+        width: 280px;
+        height: 44.21px;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 2px solid white;
+        border-radius: 4px;
+        background-color: #da271f;
+        display: block;
+        font-family: 'Poppins';
+        font-size: 14px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .serviceCardOverlay {
+        position: absolute;
+        height: 174px;
+        width: 100%;
+        background-color: #00271266;
+        top: 0;
+        left: 0;
+    }
+
+    .businesscards {
+        width: 702px;
+        height: 234px;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0;
+    }
+
+    .businesscards section {
+        height: fit-content;
+        margin: 0 auto;
+        width: 702px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 22px;
+    }
+
+    .card {
+        position: relative;
+        height: 234px;
+        width: 340px;
+        padding: auto;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px 0 rgb(0, 0, 0, 0.1);
+    }
+
+    .bgImg {
+        position: absolute;
+        width: 834px;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    #wave {
+        top: 312px;
+        height: 222px;
+        background-size: cover;
+        width: 390px;
+        display: none;
+    }
+
+    #focus {
+        width: 700px;
+        height: 417px;
+        margin: 0 auto;
+    }
+
+    #focus h4 {
+        width: 700px;
+        height: 149px;
+        font-size: 24px;
+        line-height: 44px;
+        letter-spacing: .05em;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .detailCards {
+        width: 700px;
+        height: 262px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 8px;
+        align-items: flex-end;
+    }
+
+    .detailCards .detailcard {
+        height: 254px;
+        width: 228px;
+        border-radius: 5.62px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 10px 0 rgb(0, 0, 0, 0.1);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detailCards .detailcard .topic {
+        position: absolute;
+        top: -9.6px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: fit-content;
+        height: 19.24px;
+        border-radius: 5.62px;
+        color: #DA271F;
+        background-color: #f7f7f7;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .detailCards .detailcard ul {
+        width: 195px;
+        margin: 0 auto;
+        margin-top: 34.86px;
+    }
+
+    .detailCards .detailcard ul li {
+        list-style: outside;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: .05em;
+        margin-left: 1.5em;
+    }
+
+    .detailcard article {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .detailcard article h5 {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 18px;
+        text-align: center;
+        color: #019946;
+    }
+
+    .detailcard article p {
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        margin-top: 28.11px;
+    }
+
+    #topic2 {
+        width: 181px;
+    }
+
+    #topic3 {
+        width: 139px;
+    }
+}
+
+@media (max-width: 500px) {
+    #EnergyCard {
+        width: 328px;
+        height: 200px;
+        position: relative;
+        background-size: cover;
+        margin: 0 auto;
+        margin-top: 71px;
+        border-radius: 2.64px;
+        overflow: hidden;
+    }
+
+    .cardOverlay {
+        width: 340px;
+        height: 207px;
+        background-color: #00271266;
+    }
+
+    .cardOverlay h3 {
+        position: absolute;
+        width: 282px;
+        top: 46px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #ffffff;
+        font-family: "Lato";
+        text-align: center;
+        font-size: 20px;
+        font-weight: lighter;
+        letter-spacing: .27em;
+    }
+
+    .cardOverlay p {
+        position: absolute;
+        width: 276.6px;
+        top: 75px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #ffffff;
+        font-family: "Lato";
+        text-align: center;
+        font-size: 8px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+    }
+
+    #OurServices {
+        width: 348px;
+        height: 198px;
+        margin: 0 auto;
+        margin-top: 64px;
+        padding: 0;
+    }
+
+    #OurServices h3 {
+        height: 12px;
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 16px;
+        letter-spacing: .05em;
+        line-height: 10px;
+    }
+
+    #ServiceCards {
+        width: 348px;
+        max-width: 348px;
+        height: 154px;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 9.23px;
+        align-items: center;
+        overflow: scroll;
+    }
+
+    #ServiceCards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .servicecard {
+        width: 161.4px;
+        min-width: 161.4px;
+        height: 142.66px;
+        border-radius: 4px;
+        border: 1px solid #d7d7d7;
+        overflow: hidden;
+        position: relative;
+    }
+
+
+    .servicecard img {
+        width: 100%;
+        height: 100px;
+        margin: 0;
+    }
+
+    .servicecard .label {
+        margin: 0;
+        height: 25.5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .servicecard .label h4 {
+        position: absolute;
+        width: 105px;
+        height: 9px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 16px;
+        color: #ffffff;
+        z-index: 5;
+        top: -36px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .servicecard .label button {
+        position: absolute;
+        width: 161.4px;
+        height: 25.5px;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 1px solid white;
+        border-radius: 4px;
+        background-color: #da271f;
+        display: block;
+        font-family: 'Poppins';
+        font-size: 10px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .serviceCardOverlay {
+        position: absolute;
+        height: 100px;
+        width: 100%;
+        background-color: #00271266;
+        top: 0;
+        left: 0;
+    }
+
+    .businesscards {
+        width: 340px;
+        height: 490px;
+        margin: 64px auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0;
+    }
+
+    .businesscards section {
+        height: fit-content;
+        margin: 0 auto;
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 22px;
+    }
+
+    .card {
+        position: relative;
+        height: 234px;
+        width: 100%;
+        padding: auto;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px 0 rgb(0, 0, 0, 0.1);
+    }
+
+    .bgImg {
+        position: absolute;
+        width: 390px;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    #wave {
+        top: 312px;
+        height: 222px;
+        background-size: cover;
+        width: 390px;
+        display: block;
+    }
+
+    #focus {
+        width: 340px;
+        height: 910px;
+        margin: 0 auto;
+    }
+
+    #focus h4 {
+        width: 340px;
+        height: 108px;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: .05em;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .detailCards {
+        width: 340px;
+        height: 770px;
+        margin-top: 62px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        justify-content: flex-end;
+    }
+
+    .detailCards .detailcard {
+        height: 240px;
+        width: 340px;
+        border-radius: 5.62px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 10px 0 rgb(0, 0, 0, 0.1);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detailCards .detailcard .topic {
+        position: absolute;
+        top: -11.2px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: fit-content;
+        height: 22.35px;
+        border-radius: 5.62px;
+        color: #DA271F;
+        background-color: #f7f7f7;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .detailCards .detailcard ul {
+        width: 279px;
+        margin: 0 auto;
+        margin-top: 21.23px;
+    }
+
+    .detailCards .detailcard ul li {
+        list-style: outside;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: .05em;
+    }
+
+    .detailcard article {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .detailcard article h5 {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 18px;
+        text-align: center;
+        color: #019946;
+    }
+
+    .detailcard article p {
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        margin-top: 28.11px;
+    }
+
+    #topic1 {
+        width: 230px;
+    }
+
+    #topic2 {
+        width: 194px;
+    }
+
+    #topic3 {
+        width: 206px;
+    }
+}
